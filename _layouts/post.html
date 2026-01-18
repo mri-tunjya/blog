@@ -30,6 +30,9 @@ layout: compress
 
   {% include navbar.html %}
   <div class="wrapper post">
+    <!-- TOC Sidebar -->
+    <button class="toc-toggle" aria-label="Toggle Table of Contents" aria-expanded="true">&#9654;</button>
+    <aside class="toc-sidebar"></aside>
     <main class="page-content" aria-label="Content">
       <article itemscope itemtype="https://schema.org/BlogPosting">
 
@@ -88,6 +91,7 @@ layout: compress
     {% endif %}
 
     {% include footer.html %}
+    <script src="{{ '/assets/js/toc.js' | relative_url }}"></script>
   </div>
 </body>
 

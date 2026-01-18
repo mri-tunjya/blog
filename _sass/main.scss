@@ -1,6 +1,6 @@
 // Fonts preferences
 $sans-family: Roboto, sans-serif;
-$mono-family: Consolas, monospace;
+$mono-family: "Droid Sans Mono", "Segoe UI Mono", "Fira Code", Consolas, Menlo, Monaco, "Courier New", monospace;
 $base-font-size: 16px;
 $medium-font-size: $base-font-size * 0.938;
 $small-font-size: $base-font-size * 0.875;
@@ -35,8 +35,8 @@ $dark-smoke: #4a4d56;
 $dark-gray: #767f87;
 
 // Width of the content area
-$wide-size: 890px;
-$narrow-size: 720px;
+$wide-size: 1300px;
+$narrow-size: 1100px;
 
 // Padding unit
 $spacing-full: 30px;
@@ -60,4 +60,4 @@ $on-widescreen: 1152px;
 
 // Import sass files
 @import "klise/fonts", "klise/base", "klise/layout", "klise/post",
-  "klise/miscellaneous", "klise/syntax", "klise/dark";
+"klise/miscellaneous", "klise/syntax", "klise/dark", "klise/toc";

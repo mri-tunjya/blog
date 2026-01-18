@@ -16,25 +16,28 @@ code {
     top: -1px;
     background-color: #f6f6f6;
     border-radius: 2px;
-    border: 1px solid rgba(128,128,128,0.1);
+    border: 1px solid rgba(128, 128, 128, 0.1);
   }
 }
 
 // Codeblock Theme
-pre.highlight, pre {
+pre.highlight,
+pre {
   margin: 0 -27px;
+
   @include media-query($on-mobile) {
     margin: 0 calc(51% - 51vw);
     padding-left: 20px;
   }
-  border: 1px solid rgba(128,128,128,0.1);
+
+  border: 1px solid rgba(128, 128, 128, 0.1);
   background-color: #1a1b21;
   border-radius: 2px;
   padding: 10px;
   display: block;
   overflow-x: auto;
 
-  > code {
+  >code {
     width: 100%;
     max-width: 50rem;
     margin-left: auto;
@@ -55,7 +58,7 @@ pre.highlight, pre {
 
 .highlight,
 .highlight .w {
-  color: #fbf1c7;
+  color: #d4d4d4; // Default text white/grey
   // background-color: #1a1b21;
 }
 
@@ -70,7 +73,7 @@ pre.highlight, pre {
 .highlight .cm,
 .highlight .c1,
 .highlight .cs {
-  color: #928374;
+  color: #6a9955; // VS Code Comment Green
   font-style: italic;
 }
 
@@ -84,7 +87,7 @@ pre.highlight, pre {
 
 .highlight .o,
 .highlight .ow {
-  color: #fbf1c7;
+  color: #d4d4d4; // Operator white
 }
 
 .highlight .p,
@@ -112,7 +115,7 @@ pre.highlight, pre {
 .highlight .kp,
 .highlight .kr,
 .highlight .kv {
-  color: #fb4934;
+  color: #569cd6; // Keyword Blue
 }
 
 .highlight .kc {
@@ -120,11 +123,11 @@ pre.highlight, pre {
 }
 
 .highlight .kt {
-  color: #fabd2f;
+  color: #569cd6; // Type Blue
 }
 
 .highlight .kd {
-  color: #fe8019;
+  color: #569cd6; // Storage/Declaration Blue
 }
 
 .highlight .s,
@@ -135,7 +138,7 @@ pre.highlight, pre {
 .highlight .sh,
 .highlight .sx,
 .highlight .s1 {
-  color: #b8bb26;
+  color: #ce9178; // String Orange
   font-style: italic;
 }
 

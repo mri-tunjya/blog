@@ -1,0 +1,35 @@
+# Task: Repair Jekyll Blog Build and CSS
+
+- [x] Investigate Repository State <!-- id: 0 -->
+    - [x] List files and check git status <!-- id: 1 -->
+    - [x] Review `_config.yml` for baseurl/url settings <!-- id: 2 -->
+    - [x] Review GitHub Actions workflows in `.github/workflows` <!-- id: 3 -->
+- [x] Fix CSS Rendering Issue <!-- id: 4 -->
+    - [x] Correct `baseurl` and `url` configuration if needed <!-- id: 5 -->
+    - [x] Verify asset paths <!-- id: 6 -->
+- [x] Fix GitHub Actions Build <!-- id: 7 -->
+    - [x] Analyze workflow configuration for cache usage <!-- id: 8 -->
+    - [x] Update actions versions if outdated <!-- id: 9 -->
+    - [x] Trigger/Simulate build if possible <!-- id: 10 -->
+- [x] Verification <!-- id: 11 -->
+    - [x] Verify local build (if ruby is available, or dry run) <!-- id: 12 -->
+    - [x] Verify with Browser (Localhost) <!-- id: 14 -->
+    - [x] Summarize changes in walkthrough <!-- id: 13 -->
+- [x] Personalize and Enhance UI <!-- id: 15 -->
+    - [x] Update Author Details and Social Links in `_config.yml` <!-- id: 16 -->
+    - [x] Update Favicon <!-- id: 17 -->
+    - [x] Replace Logo/Avatar with User's Image <!-- id: 18 -->
+    - [x] Implement Collapsible Table of Contents Sidebar <!-- id: 19 -->
+        - [x] Research TOC plugin or liquid implementation <!-- id: 20 -->
+        - [x] Modify `post` layout to include TOC <!-- id: 21 -->
+        - [x] Add CSS/JS for sidebar toggle <!-- id: 22 -->
+    - [x] Verify UI Image Rendering Issues <!-- id: 23 -->
+- [x] UI Polish <!-- id: 24 -->
+    - [x] Update Code Font to VS Code Monospace Variant <!-- id: 25 -->
+    - [x] Refine Syntax Highlighting Colors (Remove Yellow) <!-- id: 26 -->
+    - [x] Apply Purplish Syntax Highlight Theme <!-- id: 27 -->
+    - [x] Revert Syntax to Blue and Increase Layout Width <!-- id: 28 -->
+    - [x] Make Layout Even Wider and Align Left (10% Margin) <!-- id: 29 -->
+    - [x] Center Align Post Images <!-- id: 30 -->
+    - [x] Fix Persistent Favicon Issue <!-- id: 31 -->
+    - [x] Process Favicon to be Circular (Fixed loading issue) <!-- id: 32 -->
