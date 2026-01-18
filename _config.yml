@@ -23,8 +23,8 @@ author:
   avatar: /assets/img/avatar.jpg # change with your own avatar
 
 # URL settings
-url: "https://klise.now.sh" #
-baseurl:
+url: "https://mri-tunjya.github.io" #
+baseurl: "/blog"
 permalink: /:title/
 google_analytics: # leave it blank if not wish
 fb_appid:
